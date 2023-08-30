@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Ngo Quoc Cuong",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "@swc/helpers": "^0.5.1",
+    "core-js": "^3.32.1",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.14.0"
+  },
+  "default": "index.js",
+  "browserslist": "last 2 versions, > 0.5% and ie >= 11"
+}
